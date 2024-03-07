@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafe cappuccino</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/akar-icons-fonts"></script>
+</head>
+<body>
+  <section class="relative bg-white px-[5vw] py-20">
+    <div class="absolute bg-[#f9d9aa] w-full -ml-[40vw] rounded-[50px] h-[80vh]">
+      <img class="opacity-20" src="./Assets/Images/bg-aboutus.png" alt="coffees shadow" /> 
+    </div>
+    <div class="relative z-50 h-[80vh] flex flex-row justify-between w-screen ml-20 gap-40">
+      <div class="flex flex-col justify-center gap-10 w-[50vw]">
+        <h1 class="font-bold text-3xl text-left text-coffee w-full text-nowrap">What they say about us</h1>
+        <p class="text-md text-gray-600 text-left">we always provide the best service<br>and always maintain the quality of<br>coffee</p>
+      </div>
+      <div class="grid grid-cols-4 place-items-center gap-20">
+        <div class="relative">
+         <img src="./Assets/Images/testimonial-1.png" alt="Testimonial 1">
+          <div class="absolute bottom-[10%] -right-16 p-1.5 rounded-lg backdrop-blur-md">
+            <div class="py-3 px-6 rounded-md bg-[#f9d9aa] text-sm">
+              <h1 class="font-bold">Naura</h1>
+              <p>I really love the cappuccino,<br/> the coffee was very smooth</p>
+            </div> 
+          </div>
+        </div>
+        <div class="relative">
+         <img src="./Assets/Images/testimonial-2.png" alt="Testimonial 1">
+          <div class="absolute bottom-[10%] -right-16 p-1.5 rounded-lg backdrop-blur-md">
+            <div class="py-3 px-6 rounded-md bg-[#f9d9aa] text-sm">
+              <h1 class="font-bold">Jhone</h1>
+              <p>this coffee shop is very<br/>convenient</p>
+            </div> 
+          </div>
+        </div>
+        <div class="relative">
+         <img src="./Assets/Images/testimonial-3.png" alt="Testimonial 1">
+          <div class="absolute bottom-[10%] -right-16 p-1.5 rounded-lg backdrop-blur-md">
+            <div class="py-3 px-6 rounded-md bg-[#f9d9aa] text-sm">
+              <h1 class="font-bold">Azura</h1>
+              <p>the coffee menu here is<br/>very much</p>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="h-[80vh] bg-white p-20 pb-10 flex flex-row justify-center">
+    <img src="Assets/Images/bg-newsletter.png" alt="newletter" class="w-[80vw] object-cover rounded-3xl absolute">
+    <div class="flex flex-col items-center h-1/2 justify-center gap-10 absolute z-10">
+      <h1 class="text-white font-bold text-5xl">Subscribe to get 50% discount price</h1>
+      <form class="bg-white p-2 rounded-full">
+        <input class="bg-transparent mx-5 border-0 placeholder:font-bold w-96 focus:outline-0" type="email" placeholder="email address" />
+        <button class="bg-[#2f2105] py-2 px-6 rounded-full text-white">Order now</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>

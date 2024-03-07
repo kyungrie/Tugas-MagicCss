@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Magician</title>
+    <link
+      rel="stylesheet"
+      href="./css/bootstrap.css"
+    />
+
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #f6ebda;" id="navbar">
+      <div class="container py-2 d-flex">
+        <a class="navbar-brand flex-grow-1" href="#home">
+          <img src="../Assets/Images/logo.png" alt="" style="height: 48px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active fs-5" aria-current="page" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#">Our Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5" href="#">Delivery</a>
+            </li>
+          </ul>
+          <form class="d-flex align-items-center position-relative" role="search">
+            <input class="form-control me-2 rounded-pill ps-5" type="search" placeholder="Capuccino" aria-label="Capuccino">
+            <i class="ai-search fs-3 position-absolute start-0 ps-2"></i>
+            <i class="ai-cart fs-3"></i>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <img
+      src="./Assets/Images/bg-hero.png"
+      class="position-absolute"
+      style="top: 0; right: 0;"
+      width="500"
+    />
+    <img
+      src="./Assets/Images/bg-hero-2.png"
+      class="position-absolute"
+      style="bottom: -0.5%; left: 0;"
+      width="500"
+    />
+    <section style="background-color: #f6ebda;" id="home">
+      <div>
+        <div class="container">
+          <div style="height: 600px;" class="row mt-5 g-5">
+            <div class="col-6 ms-5">
+                <p class="h1 fs-1">Enjoy your <span class="text-warning">coffee</span> <br> before your activity</p>
+                <p class="muted mt-4">Boost your productivity and build your <br> mood with a glass of coffee in the morning</p>
+                <button type="button" class="btn fw-semibold rounded-pill text-white" style="background-color: #312307;" >Order now 
+                  <span class="btn btn-warning rounded-circle">
+                    <i class="ai-cart fs-5 text-white"></i>
+                  </span> 
+                </button>
+                <a class="text-warning text-decoration-none ms-4" href="">More menu</a>
+              </div>
+              <div class="col-5 position-relative">
+                <div class="rounded-circle position-absolute z-0" style="width: 400px; height: 400px; background-color: #312307;top:0;left:0;"></div>
+                <img class="position-absolute z-1" src="./Assets/Icons/transparent-coffe.svg" style="width: 400px;top: 10%;" alt="">
+                <img class="position-absolute z-2" src="./Assets/Images/coffe-glass.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div
+          class="py-2 fw-bolder px-5 text-black rounded-pill shadow-lg bg-white border-transparent position-absolute"
+          style="left: 55%; top: 23%"
+        >
+          Cappuccino
+        </div>
+        <div
+          class="py-2 fw-bolder px-4 text-black rounded-pill shadow-lg bg-white border-transparent position-absolute"
+          style="right: 26%; top: 30%; border-width: 5px"
+        >
+          4.8 <i class="ai-star text-warning"></i>
+        </div>
+        <div
+          class="py-2 fw-bolder px-5 text-black rounded-pill shadow-lg bg-white border-transparent position-absolute"
+          style="left: 55%; bottom: 40%; border-width: 5px"
+        >
+          18K
+        </div>
+        </div>
+    </section>
+
+    <section class="container position-relative" style="margin-top: 100px;" id="populer-now">
+      <p class="display-6 fw-semibold">Popular <span style="text-decoration: underline; text-decoration-color: #ff902a;">Now</span></p>
+      <div class="position-absolute rounded-5 container" style="background-color: #f8d8a9;left: -5%;top: 250px;height: 200px;"></div>
+      <div class="row g-1">
+        <div class="col-4">
+          <div class="card position-relative p-3" style="width:18rem;">
+            <div
+                class="py-1 fw-bolder px-3 text-black rounded-pill shadow-lg bg-white border-transparent position-absolute"
+                style="left: 7%; top: 7%; border-width: 5px"
+              >
+                4.8 <i class="ai-star text-warning"></i>
+              </div>
+            <img src="./Assets/Images/product-1.png" class="card-img-top rounded" alt="...">
+            <div class="card-body">
+              <div class="container-fluid d-flex justify-content-between">
+                <h5 class="card-title">Vanilla Latte</h5>
+                <h5 class="card-title">21K</h5>
+              </div>
+              <span class="badge border border-1 border-warning text-warning opacity-75 mt-3">Hot</span>
+              <span class="badge border border-1 border-warning text-warning opacity-75 mt-3">Cold</span>
+              <button class="btn btn-warning float-end rounded-circle">
+                <i class="ai-cart fs-5 text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card p-3" style="width:18rem;">
+            <div
+                class="py-1 fw-bolder px-3 text-black rounded-pill shadow-lg bg-white border-transparent position-absolute"
+                style="left: 7%; top: 7%; border-width: 5px"
+              >
+                4.8 <i class="ai-star text-warning"></i>
+              </div>
+            <img src="./Assets/Images/product-2.png" class="card-img-top rounded" alt="...">
+            <div class="card-body">
+              <div class="container-fluid d-flex justify-content-between">
+                <h5 class="card-title">Espresso</h5>
+                <h5 class="card-title">12K</h5>
+              </div>
+              <span class="badge border border-1 border-warning text-warning opacity-75 mt-3">Hot</span>
+              <span class="badge border border-1 border-warning text-warning opacity-75 mt-3">Cold</span>
+              <button class="btn btn-warning float-end rounded-circle">
+                <i class="ai-cart fs-5 text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card p-3" style="width:18rem;">
+            <div
+                class="py-1 fw-bolder px-3 text-black rounded-pill shadow-lg bg-white border-transparent position-absolute"
+                style="left: 7%; top: 7%; border-width: 5px"
+              >
+                4.8 <i class="ai-star text-warning"></i>
+              </div>
+            <img src="./Assets/Images/product-3.png" class="card-img-top rounded" alt="...">
+            <div class="card-body">
+              <div class="container-fluid d-flex justify-content-between">
+                <h5 class="card-title">Hazelnut Latte</h5>
+                <h5 class="card-title">23K</h5>
+              </div>
+              <span class="badge border border-1 border-warning text-warning opacity-75 mt-3">Hot</span>
+              <span class="badge border border-1 border-warning text-warning opacity-75 mt-3">Cold</span>
+              <button class="btn btn-warning float-end rounded-circle">
+                <i class="ai-cart fs-5 text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" style="margin-top: 100px;" id="Delivery-service">
+      <p class="display-6 fw-semibold mt-5">How To Use Delivery <span style="text-decoration: underline; text-decoration-color: #ff902a;">Service</span></p>
+      <div class="row mt-5">
+        <div class="col-4">
+          <img src="./Assets/Images/service-1.png" alt="" class="" style="width: 250px;">
+          <p class="h3 fw-bold">Choose Your Coffee</p>
+          <p class="fs-5 text-muted">There are 20+ coffee for you</p>
+        </div>
+        <div class="col-4">
+          <img src="./Assets/Images/service-2.png" alt="" class="" style="width: 250px;">
+          <p class="h3 fw-bold">We Deliver It To You</p>
+          <p class="fs-5 text-muted">Choose delivery service</p>
+        </div>
+        <div class="col-4">
+          <img src="./Assets/Images/service-3.png" alt="" class="" style="width: 250px;">
+          <p class="h3 fw-bold">Enjoy Your Coffee</p>
+          <p class="fs-5 text-muted">Choose delivery service</p>
+        </div>
+        
+      </div>
+    </section>
+
+    <script src="./js/bootstrap.js"></script>
+  </body>
+</html>
